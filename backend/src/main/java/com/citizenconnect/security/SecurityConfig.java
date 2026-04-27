@@ -79,7 +79,8 @@ public class SecurityConfig {
                 "http://localhost:5173",
                 "http://localhost:5174",
                 "http://localhost:5175",
-                "http://localhost:3000"
+                "http://localhost:3000",
+                "https://citizen-connect-3.onrender.com"
         ));
 
         configuration.setAllowedMethods(List.of("*"));
