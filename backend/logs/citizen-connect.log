@@ -1,0 +1,327 @@
+2026-04-07 07:27:10 [main] INFO  c.c.CitizenConnectApplication - Starting CitizenConnectApplication using Java 21.0.9 with PID 12644 (C:\Users\savit\OneDrive\Desktop\2025-26\FSAD PROJECT\FSAD-project\backend\target\classes started by savit in C:\Users\savit\OneDrive\Desktop\2025-26\FSAD PROJECT\FSAD-project\backend)
+2026-04-07 07:27:11 [main] DEBUG c.c.CitizenConnectApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2026-04-07 07:27:11 [main] INFO  c.c.CitizenConnectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 07:27:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-07 07:27:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2026-04-07 07:27:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 07:27:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 07:27:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-04-07 07:27:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-07 07:27:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2010 ms
+2026-04-07 07:27:13 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-07 07:27:13 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-04-07 07:27:13 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-07 07:27:13 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-07 07:27:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-07 07:27:13 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38e7860c
+2026-04-07 07:27:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-07 07:27:13 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 07:27:15 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-07 07:27:16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-07 07:27:16 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-07 07:27:17 [main] DEBUG c.c.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-04-07 07:27:18 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 07:27:18 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@623c62b9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7af65b49, org.springframework.security.web.context.SecurityContextHolderFilter@4bc15d49, org.springframework.security.web.header.HeaderWriterFilter@3b829ef, org.springframework.web.filter.CorsFilter@32e14e55, org.springframework.security.web.authentication.logout.LogoutFilter@23bc69a1, com.citizenconnect.security.JwtAuthenticationFilter@2110b756, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34c83eb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fde13d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b6419dd, org.springframework.security.web.session.SessionManagementFilter@695d0adc, org.springframework.security.web.access.ExceptionTranslationFilter@50f71f48, org.springframework.security.web.access.intercept.AuthorizationFilter@73b77d07]
+2026-04-07 07:27:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-04-07 07:27:19 [main] INFO  c.c.CitizenConnectApplication - Started CitizenConnectApplication in 9.106 seconds (process running for 9.568)
+2026-04-07 07:28:21 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 07:28:21 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 07:28:21 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-07 07:28:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-04-07 07:28:21 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-04-07 07:28:21 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-04-07 07:28:21 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-04-07 07:28:22 [http-nio-8080-exec-10] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-04-07 07:28:22 [http-nio-8080-exec-10] INFO  c.c.aspect.LoggingAspect - API AuthController.login(..) executed in 209 ms
+2026-04-07 07:28:22 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:28:22 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:28:22 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:28:22 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:28:22 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:28:22 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:28:22 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:28:22 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:28:22 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:28:22 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:28:22 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:28:22 [http-nio-8080-exec-3] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 28 ms
+2026-04-07 07:28:22 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:28:22 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:28:22 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:28:22 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:28:22 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:28:22 [http-nio-8080-exec-2] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 20 ms
+2026-04-07 07:28:22 [http-nio-8080-exec-5] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 76 ms
+2026-04-07 07:28:22 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:28:22 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:28:22 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:22 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:28:22 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:28:22 [http-nio-8080-exec-7] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 33 ms
+2026-04-07 07:28:30 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:28:30 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:28:30 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:28:30 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:28:30 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:28:30 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:28:30 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:28:30 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:28:30 [http-nio-8080-exec-8] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:30 [http-nio-8080-exec-4] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:30 [http-nio-8080-exec-8] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:30 [http-nio-8080-exec-4] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:30 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:28:30 [http-nio-8080-exec-4] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:28:30 [http-nio-8080-exec-4] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:28:30 [http-nio-8080-exec-4] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 19 ms
+2026-04-07 07:28:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:28:31 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:28:31 [http-nio-8080-exec-8] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 55 ms
+2026-04-07 07:28:31 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:28:31 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:31 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:28:31 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:28:31 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:28:31 [http-nio-8080-exec-3] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 23 ms
+2026-04-07 07:28:31 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:28:31 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:31 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:31 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:28:31 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:28:31 [http-nio-8080-exec-2] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 22 ms
+2026-04-07 07:28:37 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:28:37 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:28:37 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:28:37 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:28:37 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:28:37 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:28:37 [http-nio-8080-exec-10] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-10] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:28:37 [http-nio-8080-exec-10] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:28:37 [http-nio-8080-exec-1] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 22 ms
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:28:37 [http-nio-8080-exec-10] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:28:37 [http-nio-8080-exec-10] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 59 ms
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:28:37 [http-nio-8080-exec-1] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:28:37 [http-nio-8080-exec-1] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 18 ms
+2026-04-07 07:28:37 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:28:37 [http-nio-8080-exec-8] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-8] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:28:37 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:28:37 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:28:37 [http-nio-8080-exec-8] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 53 ms
+2026-04-07 07:30:26 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/register/moderator
+2026-04-07 07:30:26 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/register/moderator
+2026-04-07 07:30:26 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-04-07 07:30:26 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/register/moderator
+2026-04-07 07:30:26 [http-nio-8080-exec-6] DEBUG c.c.aspect.LoggingAspect - Entering method: UserService.createUser(..) with arguments: [com.citizenconnect.dto.RegisterRequest@104dea72]
+2026-04-07 07:30:26 [http-nio-8080-exec-6] DEBUG c.c.aspect.LoggingAspect - Method UserService.createUser(..) returned: UserDTO
+2026-04-07 07:30:26 [http-nio-8080-exec-6] DEBUG c.c.aspect.LoggingAspect - Entering method: EmailService.sendWelcomeEmail(..) with arguments: [vardhannaidu17@gmail.com, vardhan]
+2026-04-07 07:30:29 [http-nio-8080-exec-6] ERROR c.c.service.EmailService - Failed to send welcome email: Authentication failed
+2026-04-07 07:30:29 [http-nio-8080-exec-6] DEBUG c.c.aspect.LoggingAspect - Method EmailService.sendWelcomeEmail(..) returned: null
+2026-04-07 07:30:29 [http-nio-8080-exec-6] INFO  c.c.aspect.LoggingAspect - API AuthController.registerModerator(..) executed in 2888 ms
+2026-04-07 07:30:29 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:30:29 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:30:29 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/users
+2026-04-07 07:30:29 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/admin/dashboard/stats
+2026-04-07 07:30:29 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:30:29 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:30:29 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:30:29 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:30:29 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:30:29 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:30:29 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:30:29 [http-nio-8080-exec-2] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 19 ms
+2026-04-07 07:30:29 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/users
+2026-04-07 07:30:29 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:30:29 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/users
+2026-04-07 07:30:29 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-5] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 52 ms
+2026-04-07 07:30:29 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getAllUsers(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getAllUsers() with arguments: []
+2026-04-07 07:30:29 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/admin/dashboard/stats
+2026-04-07 07:30:29 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getAllUsers() returned: ArrayList
+2026-04-07 07:30:29 [http-nio-8080-exec-7] INFO  c.c.aspect.LoggingAspect - API AdminController.getAllUsers() executed in 17 ms
+2026-04-07 07:30:29 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/admin/dashboard/stats
+2026-04-07 07:30:29 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.AdminController.getDashboardStats(); target is of class [com.citizenconnect.controller.AdminController]
+2026-04-07 07:30:29 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Entering method: AdminService.getDashboardStats() with arguments: []
+2026-04-07 07:30:29 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Method AdminService.getDashboardStats() returned: HashMap
+2026-04-07 07:30:29 [http-nio-8080-exec-3] INFO  c.c.aspect.LoggingAspect - API AdminController.getDashboardStats() executed in 31 ms
+2026-04-07 07:30:56 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-04-07 07:30:56 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-04-07 07:30:56 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-04-07 07:30:56 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-04-07 07:30:56 [http-nio-8080-exec-6] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-04-07 07:30:56 [http-nio-8080-exec-6] INFO  c.c.aspect.LoggingAspect - API AuthController.login(..) executed in 14 ms
+2026-04-07 07:30:56 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/moderator/dashboard/stats
+2026-04-07 07:30:56 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/moderator/issues/pending
+2026-04-07 07:30:56 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/moderator/issues/pending
+2026-04-07 07:30:56 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/moderator/dashboard/stats
+2026-04-07 07:30:56 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/moderator/issues/pending
+2026-04-07 07:30:56 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/moderator/dashboard/stats
+2026-04-07 07:30:56 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/moderator/issues/pending
+2026-04-07 07:30:56 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/moderator/dashboard/stats
+2026-04-07 07:30:56 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getPendingIssues(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getModerationStats(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getPendingIssues(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getModerationStats(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Entering method: ModeratorService.getPendingIssues() with arguments: []
+2026-04-07 07:30:56 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Entering method: ModeratorService.countPendingIssues() with arguments: []
+2026-04-07 07:30:56 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Method ModeratorService.countPendingIssues() returned: Long
+2026-04-07 07:30:56 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Method ModeratorService.getPendingIssues() returned: ArrayList
+2026-04-07 07:30:56 [http-nio-8080-exec-5] INFO  c.c.aspect.LoggingAspect - API ModeratorController.getModerationStats() executed in 15 ms
+2026-04-07 07:30:56 [http-nio-8080-exec-2] INFO  c.c.aspect.LoggingAspect - API ModeratorController.getPendingIssues() executed in 15 ms
+2026-04-07 07:30:56 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/moderator/issues/pending
+2026-04-07 07:30:56 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/moderator/dashboard/stats
+2026-04-07 07:30:56 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/moderator/dashboard/stats
+2026-04-07 07:30:56 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getModerationStats(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/moderator/issues/pending
+2026-04-07 07:30:56 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getModerationStats(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getPendingIssues(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.ModeratorController.getPendingIssues(); target is of class [com.citizenconnect.controller.ModeratorController]
+2026-04-07 07:30:56 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Entering method: ModeratorService.countPendingIssues() with arguments: []
+2026-04-07 07:30:56 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Entering method: ModeratorService.getPendingIssues() with arguments: []
+2026-04-07 07:30:56 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Method ModeratorService.countPendingIssues() returned: Long
+2026-04-07 07:30:56 [http-nio-8080-exec-3] INFO  c.c.aspect.LoggingAspect - API ModeratorController.getModerationStats() executed in 13 ms
+2026-04-07 07:30:56 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Method ModeratorService.getPendingIssues() returned: ArrayList
+2026-04-07 07:30:56 [http-nio-8080-exec-7] INFO  c.c.aspect.LoggingAspect - API ModeratorController.getPendingIssues() executed in 13 ms
+2026-04-07 07:32:10 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/register
+2026-04-07 07:32:10 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/register
+2026-04-07 07:32:10 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-04-07 07:32:10 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/register
+2026-04-07 07:32:10 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Entering method: UserService.createUser(..) with arguments: [com.citizenconnect.dto.RegisterRequest@af130e3]
+2026-04-07 07:32:10 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Method UserService.createUser(..) returned: UserDTO
+2026-04-07 07:32:10 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Entering method: EmailService.sendWelcomeEmail(..) with arguments: [santosh123@gmail.com, santosh123]
+2026-04-07 07:32:13 [http-nio-8080-exec-8] ERROR c.c.service.EmailService - Failed to send welcome email: Authentication failed
+2026-04-07 07:32:13 [http-nio-8080-exec-8] DEBUG c.c.aspect.LoggingAspect - Method EmailService.sendWelcomeEmail(..) returned: null
+2026-04-07 07:32:13 [http-nio-8080-exec-8] INFO  c.c.aspect.LoggingAspect - API AuthController.register(..) executed in 3110 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/auth/login
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-04-07 07:32:35 [http-nio-8080-exec-5] INFO  c.c.aspect.LoggingAspect - API AuthController.login(..) executed in 20 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/dashboard/stats
+2026-04-07 07:32:35 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/my-issues
+2026-04-07 07:32:35 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/my-feedback
+2026-04-07 07:32:35 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/constituency-updates
+2026-04-07 07:32:35 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/my-issues
+2026-04-07 07:32:35 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/dashboard/stats
+2026-04-07 07:32:35 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/my-feedback
+2026-04-07 07:32:35 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/citizen/constituency-updates
+2026-04-07 07:32:35 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/dashboard/stats
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/my-issues
+2026-04-07 07:32:35 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/constituency-updates
+2026-04-07 07:32:35 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/my-feedback
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/my-issues
+2026-04-07 07:32:35 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/dashboard/stats
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyIssues(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getDashboardStats(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyIssues(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/constituency-updates
+2026-04-07 07:32:35 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/my-feedback
+2026-04-07 07:32:35 [http-nio-8080-exec-2] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getDashboardStats(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getConstituencyUpdates(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyFeedback(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-3] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getConstituencyUpdates(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-7] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyFeedback(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getConstituencyUpdates(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getDashboardStats(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getMyIssues(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getMyFeedback(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getMyFeedback(..) returned: ArrayList
+2026-04-07 07:32:35 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getMyIssues(..) returned: ArrayList
+2026-04-07 07:32:35 [http-nio-8080-exec-7] INFO  c.c.aspect.LoggingAspect - API CitizenController.getMyFeedback() executed in 48 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-5] INFO  c.c.aspect.LoggingAspect - API CitizenController.getMyIssues() executed in 56 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/my-issues
+2026-04-07 07:32:35 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/my-feedback
+2026-04-07 07:32:35 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/my-issues
+2026-04-07 07:32:35 [http-nio-8080-exec-2] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getDashboardStats(..) returned: HashMap
+2026-04-07 07:32:35 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/my-feedback
+2026-04-07 07:32:35 [http-nio-8080-exec-9] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyIssues(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-2] INFO  c.c.aspect.LoggingAspect - API CitizenController.getDashboardStats() executed in 89 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-9] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyIssues(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-6] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyFeedback(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-6] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getMyFeedback(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/dashboard/stats
+2026-04-07 07:32:35 [http-nio-8080-exec-9] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getMyIssues(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-6] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getMyFeedback(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-6] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getMyFeedback(..) returned: ArrayList
+2026-04-07 07:32:35 [http-nio-8080-exec-9] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getMyIssues(..) returned: ArrayList
+2026-04-07 07:32:35 [http-nio-8080-exec-6] INFO  c.c.aspect.LoggingAspect - API CitizenController.getMyFeedback() executed in 29 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-9] INFO  c.c.aspect.LoggingAspect - API CitizenController.getMyIssues() executed in 32 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/dashboard/stats
+2026-04-07 07:32:35 [http-nio-8080-exec-3] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getConstituencyUpdates(..) returned: ArrayList
+2026-04-07 07:32:35 [http-nio-8080-exec-4] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getDashboardStats(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-4] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getDashboardStats(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-3] INFO  c.c.aspect.LoggingAspect - API CitizenController.getConstituencyUpdates() executed in 126 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/citizen/constituency-updates
+2026-04-07 07:32:35 [http-nio-8080-exec-4] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getDashboardStats(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/citizen/constituency-updates
+2026-04-07 07:32:35 [http-nio-8080-exec-4] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getDashboardStats(..) returned: HashMap
+2026-04-07 07:32:35 [http-nio-8080-exec-10] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getConstituencyUpdates(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-10] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.CitizenController.getConstituencyUpdates(); target is of class [com.citizenconnect.controller.CitizenController]
+2026-04-07 07:32:35 [http-nio-8080-exec-4] INFO  c.c.aspect.LoggingAspect - API CitizenController.getDashboardStats() executed in 54 ms
+2026-04-07 07:32:35 [http-nio-8080-exec-10] DEBUG c.c.aspect.LoggingAspect - Entering method: CitizenService.getConstituencyUpdates(..) with arguments: [4]
+2026-04-07 07:32:35 [http-nio-8080-exec-10] DEBUG c.c.aspect.LoggingAspect - Method CitizenService.getConstituencyUpdates(..) returned: ArrayList
+2026-04-07 07:32:35 [http-nio-8080-exec-10] INFO  c.c.aspect.LoggingAspect - API CitizenController.getConstituencyUpdates() executed in 27 ms
+2026-04-07 07:32:40 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/politicians
+2026-04-07 07:32:40 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/users/politicians
+2026-04-07 07:32:40 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/politicians
+2026-04-07 07:32:40 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/politicians
+2026-04-07 07:32:40 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Entering method: UserService.getUsersByRole(..) with arguments: [POLITICIAN]
+2026-04-07 07:32:40 [http-nio-8080-exec-7] DEBUG c.c.aspect.LoggingAspect - Method UserService.getUsersByRole(..) returned: ArrayList
+2026-04-07 07:32:40 [http-nio-8080-exec-7] INFO  c.c.aspect.LoggingAspect - API UserController.getPoliticians() executed in 15 ms
+2026-04-07 07:32:40 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/users/politicians
+2026-04-07 07:32:40 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/users/politicians
+2026-04-07 07:32:40 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Entering method: UserService.getUsersByRole(..) with arguments: [POLITICIAN]
+2026-04-07 07:32:40 [http-nio-8080-exec-5] DEBUG c.c.aspect.LoggingAspect - Method UserService.getUsersByRole(..) returned: ArrayList
+2026-04-07 07:32:40 [http-nio-8080-exec-5] INFO  c.c.aspect.LoggingAspect - API UserController.getPoliticians() executed in 13 ms
+2026-04-07 07:33:23 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/issues
+2026-04-07 07:33:23 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/issues
+2026-04-07 07:33:23 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/issues
+2026-04-07 07:33:23 [http-nio-8080-exec-9] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.IssueController.createIssue(com.citizenconnect.dto.CreateIssueRequest); target is of class [com.citizenconnect.controller.IssueController]
+2026-04-07 07:33:23 [http-nio-8080-exec-9] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.IssueController.createIssue(com.citizenconnect.dto.CreateIssueRequest); target is of class [com.citizenconnect.controller.IssueController]
+2026-04-07 07:33:23 [http-nio-8080-exec-9] DEBUG c.c.aspect.LoggingAspect - Entering method: IssueService.createIssue(..) with arguments: [com.citizenconnect.dto.CreateIssueRequest@3a279b3c, 4]
+2026-04-07 07:33:23 [http-nio-8080-exec-9] DEBUG c.c.aspect.LoggingAspect - Method IssueService.createIssue(..) returned: IssueDTO
+2026-04-07 07:33:23 [http-nio-8080-exec-9] INFO  c.c.aspect.LoggingAspect - API IssueController.createIssue(..) executed in 111 ms
+2026-04-07 07:33:23 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/issues/my-issues
+2026-04-07 07:33:23 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/issues/my-issues
+2026-04-07 07:33:23 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/issues/my-issues
+2026-04-07 07:33:23 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/issues/my-issues
+2026-04-07 07:33:23 [http-nio-8080-exec-4] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.IssueController.getMyIssues(); target is of class [com.citizenconnect.controller.IssueController]
+2026-04-07 07:33:23 [http-nio-8080-exec-4] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.IssueController.getMyIssues(); target is of class [com.citizenconnect.controller.IssueController]
+2026-04-07 07:33:23 [http-nio-8080-exec-4] DEBUG c.c.aspect.LoggingAspect - Entering method: IssueService.getIssuesByCitizen(..) with arguments: [4]
+2026-04-07 07:33:23 [http-nio-8080-exec-4] DEBUG c.c.aspect.LoggingAspect - Method IssueService.getIssuesByCitizen(..) returned: ArrayList
+2026-04-07 07:33:23 [http-nio-8080-exec-4] INFO  c.c.aspect.LoggingAspect - API IssueController.getMyIssues() executed in 42 ms
+2026-04-07 07:33:23 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/issues/my-issues
+2026-04-07 07:33:23 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/issues/my-issues
+2026-04-07 07:33:23 [http-nio-8080-exec-10] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.IssueController.getMyIssues(); target is of class [com.citizenconnect.controller.IssueController]
+2026-04-07 07:33:23 [http-nio-8080-exec-10] DEBUG o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.citizenconnect.controller.IssueController.getMyIssues(); target is of class [com.citizenconnect.controller.IssueController]
+2026-04-07 07:33:23 [http-nio-8080-exec-10] DEBUG c.c.aspect.LoggingAspect - Entering method: IssueService.getIssuesByCitizen(..) with arguments: [4]
+2026-04-07 07:33:23 [http-nio-8080-exec-10] DEBUG c.c.aspect.LoggingAspect - Method IssueService.getIssuesByCitizen(..) returned: ArrayList
+2026-04-07 07:33:23 [http-nio-8080-exec-10] INFO  c.c.aspect.LoggingAspect - API IssueController.getMyIssues() executed in 38 ms
