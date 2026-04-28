@@ -4,9 +4,9 @@ server:
 
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:h2:mem:citize_db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE}
-    username: ${SPRING_DATASOURCE_USERNAME:sa}
-    password: ${SPRING_DATASOURCE_PASSWORD:}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/citize_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:Prasanna@7142}
     # driver-class-name and dialect are intentionally omitted so Spring Boot auto-detects them based on the URL.
   
   h2:
