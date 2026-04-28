@@ -49,10 +49,10 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
         
-        <!-- PostgreSQL Database for Render Deployment -->
+        <!-- MySQL Database -->
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
         
